@@ -6,6 +6,7 @@ Vue.js + Vuex + Vue Router + Firebase with pre-configured signup and login for f
 
 # install dependencies
 $ npm install
+
 $ firebase init
 
 Update firebase settings in main.js
