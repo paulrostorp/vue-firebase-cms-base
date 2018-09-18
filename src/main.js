@@ -20,12 +20,10 @@ Vue.use(ElementUI)
 // Vue.mixin(AuthUtils)
 Vue.config.productionTip = false
 firebase.initializeApp({
-  apiKey: 'AIzaSyANadjhxJsnlrT-nz2sU2IzHxd_3mx9n-Q',
-  authDomain: 'p0llux-vue-cms.firebaseapp.com',
-  databaseURL: 'https://p0llux-vue-cms.firebaseio.com',
-  projectId: 'p0llux-vue-cms',
-  storageBucket: 'p0llux-vue-cms.appspot.com',
-  messagingSenderId: '507146943136'
+  apiKey: '**',
+  authDomain: '**',
+  databaseURL: '**',
+  projectId: '**'
 })
 const firestore = firebase.firestore()
 const settings = { timestampsInSnapshots: true }
